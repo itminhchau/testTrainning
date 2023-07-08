@@ -18,19 +18,3 @@ th {
   border: 1px solid red;
   border-collapse: collapse;
 } */
-.outner-table {
-  width: 100%;
-}
-
-.outner-table,
-th,
-td {
-
-  border: 1px solid white;
-  border-collapse: collapse;
-}
-
-.outner-table th,
-td {
-  background-color: #96D4D4;
-}
