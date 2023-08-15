@@ -24,6 +24,10 @@ function GroupTable(props) {
             setChecked(id)
             setHide(true)
         }
+
+        // code 
+        // setChecked(id)
+        // setHide(!hide)
     }
 
 

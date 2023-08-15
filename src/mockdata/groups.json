@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "group_name": "Group 1",
+        "group_name": "Group 2",
         "requirements": [
             "JS, HTML, CSS"
         ],
@@ -19,7 +19,7 @@
     },
     {
         "id": 3,
-        "group_name": "Group 1",
+        "group_name": "Group 3",
         "requirements": [
             "JS, HTML, CSS"
         ],
@@ -28,7 +28,7 @@
     },
     {
         "id": 4,
-        "group_name": "Group 1",
+        "group_name": "Group 4",
         "requirements": [
             "JS, HTML, CSS"
         ],
@@ -37,7 +37,7 @@
     },
     {
         "id": 5,
-        "group_name": "Group 1",
+        "group_name": "Group 5",
         "requirements": [
             "JS, HTML, CSS"
         ],
@@ -46,7 +46,7 @@
     },
     {
         "id": 6,
-        "group_name": "Group 1",
+        "group_name": "Group 6",
         "requirements": [
             "JS, HTML, CSS"
         ],

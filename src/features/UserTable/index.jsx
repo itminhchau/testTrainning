@@ -3,22 +3,33 @@ import userDataJson from '../../mockdata/users.json';
 import './style.scss';
 const UserTable = ({ group_id, openModal, user }) => {
 
+
     const [userData, setUserData] = useState(userDataJson)
-    const prevUserData = useRef(userData)
+    // const prevUserData = useRef(userData)
 
     const handlerOnclickUser = (item) => {
         openModal(item)
     }
 
     useEffect(() => {
-        let data = prevUserData.current.map((item) => {
-            if (item.id === user.id) {
-                item = user
-            }
-            return item
+        // let data = prevUserData.current.map((item) => {
+        //     if (item.id === user.id) {
+        //         item = user
+        //     }
+        //     return item
+        // })
+        // prevUserData.current = data
+        // setUserData(prevUserData.current)
+
+        setUserData(prevUserData => {
+            let data = prevUserData.map((item) => {
+                if (item.id === user.id) {
+                    item = user
+                }
+                return item
+            })
+            return data
         })
-        prevUserData.current = data
-        setUserData(data)
     }, [user])
     return (
         <table className='inner-table'>

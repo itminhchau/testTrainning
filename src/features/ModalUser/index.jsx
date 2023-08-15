@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './style.scss';
 const ModalUser = ({ cancel, user, onReceiveDataFromModal }) => {
+    // init lại user mình truyền xuống.
     const [input, setInput] = useState(user)
     const handleOnchangeInput = (e) => {
         setInput({
